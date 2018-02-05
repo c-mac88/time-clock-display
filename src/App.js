@@ -1,7 +1,7 @@
 import { showSwipe } from './api';
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo_white.png';
 
 class App extends Component {
   constructor(props) {
@@ -13,24 +13,23 @@ class App extends Component {
       })
       setTimeout(() => {
         this.setState({ 
-          greeting: '',
-          student: ''
+          greeting: 'HELLO! ',
+          student: 'Please check in'
         })
       }, 5000)
     });
   }
-  
+
   state = {
-    greeting: '',
-    student: ''
+    greeting: 'HELLO! ',
+    student: 'Please check in'
   };
   
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title"></h1>
+        <img src={logo} alt="poop" width="500px"/>        
         </header>
           <div className="App">
           <h1 className="App-intro">
