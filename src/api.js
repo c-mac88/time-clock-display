@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client';
-const socket = openSocket('http://localhost:8008');
+const socket = openSocket('http://yoda-oca.herokuapp.com:8008');
 
 
 function showSwipe(cb) {
